@@ -4,6 +4,7 @@
 <head>
   <title>Chefaho</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
 </head>
 
 <body>
@@ -17,11 +18,18 @@
     </div>
 
     <div class="main">
-      <img src="icon-chef.png">
+      <img src="icon-chef.png" class="stupidimage">
       <h1>Шеф на дом - Ваш лучший выбор на сегодня!</h1>
     </div>
   </div>
 <script src="index.js"></script>
+<script>
+  anime({
+    targets: ".main .stupidimage",
+    height: 0,
+    delay: 1500
+  })
+</script>
 </script>
 </body>
 
