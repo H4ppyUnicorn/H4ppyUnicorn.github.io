@@ -56,3 +56,48 @@ body {
     padding: 1rem;
     z-index: 1;
 }
+
+.chef {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.chef img {
+    max-width: 30%;
+    border-radius: 50%;
+}
+
+.chef .info {
+    margin-left: 1rem;
+}
+
+.chef p {
+    font-size: larger;
+}
+
+.chef button {
+    padding: 0.5rem 2rem;
+    background-color: #f57a00;
+    color: #252525;
+    border: none;
+    font-size: larger;
+    border-radius: 1rem;
+    margin-top: 1rem;
+
+}
+
+.chef button:hover {
+    background-color: #b85c00;
+    transition: background-color .2s ease-in-out;
+}
+
+.chef hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.content {
+    margin-top: 2rem;
+}
