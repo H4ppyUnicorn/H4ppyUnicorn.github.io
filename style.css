@@ -65,7 +65,8 @@ body {
 }
 
 .chef img {
-    max-width: 30%;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
 
@@ -78,6 +79,7 @@ body {
 }
 
 .chef button {
+    cursor: pointer;
     padding: 0.5rem 2rem;
     background-color: #f57a00;
     color: #252525;
